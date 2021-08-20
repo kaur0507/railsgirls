@@ -18,3 +18,7 @@ footer { margin-top: 100px; }
 table, td, th { vertical-align: middle; border: none; }
 th { border-bottom: 1px solid #DDD; }
 body { margin: 0; }
+h1 { margin-top: 5px; }
+div.field { display: flex; flex-direction: column; }
+input, textarea { width: 300px; margin-bottom: 5px; }
+.row { display: flex; flex-direction: column; }
