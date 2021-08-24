@@ -14,7 +14,7 @@
  *= require_self
  */
  
-footer { margin-top: 100px; }
+footer { margin-top: 100px; background-color: #ebebeb; padding: 30px 0; }
 table, td, th { vertical-align: middle; border: none; }
 th { border-bottom: 1px solid #DDD; }
 body { margin: 0; }
@@ -22,3 +22,7 @@ h1 { margin-top: 5px; }
 div.field { display: flex; flex-direction: column; }
 input, textarea { width: 300px; margin-bottom: 5px; }
 .row { display: flex; flex-direction: column; }
+.gravatar { height: 30px; width: auto; }
+.navbar { min-height: 38px; background-color: #f55e55; }
+.navbar a.brand { font-size: 18px; }
+.navbar a.brand:hover { color: #fff; background-color: transparent; text-decoration: none; }
